@@ -1,0 +1,85 @@
+{
+  "User": [
+    {
+      "UserName": "Harita",
+      "Age": "22",
+      "Sex": "Male",
+      "ContactNo": "6382830515",
+      "EmailID": "30harita2002@gmail.com",
+      "UserImage": "https://www.melivecode.com/users/1.png",
+      "id": 1
+    },
+    {
+      "UserName": "ranita",
+      "Age": "22",
+      "Sex": "Male",
+      "ContactNo": "9025457758",
+      "EmailID": "ranita@gmail.com",
+      "UserImage": "https://www.melivecode.com/users/1.png",
+      "id": 2
+    },
+    {
+      "UserName": "srivanth",
+      "Age": "27",
+      "Sex": "Male",
+      "ContactNo": "8870743979",
+      "EmailID": "srivanth@gmail.com",
+      "UserImage": "https://www.melivecode.com/users/1.png",
+      "id": 3
+    },
+    {
+      "UserName": "vasanth",
+      "Age": "22",
+      "Sex": "Male",
+      "ContactNo": "8248276484",
+      "EmailID": "31vasanth@gmail.com",
+      "UserImage": "https://www.melivecode.com/users/1.png",
+      "id": 4
+    },
+    {
+      "UserName": "uma",
+      "Age": "45",
+      "Sex": "Male",
+      "ContactNo": "6383125860",
+      "EmailID": "uma@gmail.com",
+      "UserImage": "https://www.melivecode.com/users/1.png",
+      "id": 5
+    },
+    {
+      "UserName": "raja",
+      "Age": "48",
+      "Sex": "Male",
+      "ContactNo": "9786657055",
+      "EmailID": "nagarajan@gmail.com",
+      "UserImage": "https://www.melivecode.com/users/8.png",
+      "id": 6
+    },
+    {
+      "UserName": "Barath",
+      "Age": "48",
+      "Sex": "Male",
+      "ContactNo": "6382830515",
+      "EmailID": "bharath@gmail.com",
+      "UserImage": "https://www.melivecode.com/users/8.png",
+      "id": 7
+    },
+    {
+      "UserName": "reshma",
+      "Age": "22",
+      "Sex": "Male",
+      "ContactNo": "9786657055",
+      "EmailID": "reshma@gmail.com",
+      "UserImage": "https://www.melivecode.com/users/8.png",
+      "id": 8
+    },
+    {
+      "UserName": "Harita",
+      "Age": "48",
+      "Sex": "Male",
+      "ContactNo": "9786657055",
+      "EmailID": "abc@gmail.com",
+      "UserImage": "https://www.melivecode.com/users/8.png",
+      "id": 9
+    }
+  ]
+}
