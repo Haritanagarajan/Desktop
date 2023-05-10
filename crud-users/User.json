@@ -15,7 +15,7 @@
       "Sex": "Male",
       "ContactNo": "9025457758",
       "EmailID": "ranita@gmail.com",
-      "UserImage": "https://www.melivecode.com/users/1.png",
+      "UserImage": "https://www.melivecode.com/users/2.png",
       "id": 2
     },
     {
@@ -24,7 +24,7 @@
       "Sex": "Male",
       "ContactNo": "8870743979",
       "EmailID": "srivanth@gmail.com",
-      "UserImage": "https://www.melivecode.com/users/1.png",
+      "UserImage": "https://www.melivecode.com/users/3.png",
       "id": 3
     },
     {
@@ -33,7 +33,7 @@
       "Sex": "Male",
       "ContactNo": "8248276484",
       "EmailID": "31vasanth@gmail.com",
-      "UserImage": "https://www.melivecode.com/users/1.png",
+      "UserImage": "https://www.melivecode.com/users/4.png",
       "id": 4
     },
     {
@@ -42,7 +42,7 @@
       "Sex": "Male",
       "ContactNo": "6383125860",
       "EmailID": "uma@gmail.com",
-      "UserImage": "https://www.melivecode.com/users/1.png",
+      "UserImage": "https://www.melivecode.com/users/5.png",
       "id": 5
     },
     {
@@ -51,35 +51,17 @@
       "Sex": "Male",
       "ContactNo": "9786657055",
       "EmailID": "nagarajan@gmail.com",
-      "UserImage": "https://www.melivecode.com/users/8.png",
+      "UserImage": "https://www.melivecode.com/users/6.png",
       "id": 6
     },
     {
-      "UserName": "Barath",
-      "Age": "48",
-      "Sex": "Male",
-      "ContactNo": "6382830515",
-      "EmailID": "bharath@gmail.com",
-      "UserImage": "https://www.melivecode.com/users/8.png",
-      "id": 7
-    },
-    {
-      "UserName": "reshma",
+      "UserName": "harita",
       "Age": "22",
       "Sex": "Male",
-      "ContactNo": "9786657055",
-      "EmailID": "reshma@gmail.com",
-      "UserImage": "https://www.melivecode.com/users/8.png",
-      "id": 8
-    },
-    {
-      "UserName": "Harita",
-      "Age": "48",
-      "Sex": "Male",
-      "ContactNo": "9786657055",
+      "ContactNo": "6382830515",
       "EmailID": "abc@gmail.com",
-      "UserImage": "https://www.melivecode.com/users/8.png",
-      "id": 9
+      "UserImage": "https://www.melivecode.com/users/7.png",
+      "id": 7
     }
   ]
 }
