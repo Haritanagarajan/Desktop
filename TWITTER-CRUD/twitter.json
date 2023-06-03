@@ -4,7 +4,6 @@
       "username": "HARITA",
       "password": "INDIA",
       "login": 0,
-      "tweetmsg":"hello",
       "id": 2
     },
     {
@@ -40,6 +39,11 @@
       "aname": "vasanth",
       "apassword": "vasanth123",
       "login": 0
+    }
+  ],
+  "Twittermessage": [
+    {
+      "twittmsg":""
     }
   ]
 }
