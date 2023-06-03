@@ -1,0 +1,741 @@
+form .error {
+    color: red;
+    font-size: small;
+
+}
+
+/*section 1*/
+
+@font-face {
+    font-family: myfont;
+    src: url(/Desktop/PSD2/assets/font/00819\ Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* background image*/
+
+.heading {
+    background-image: url(/assets/images/sec1bg2.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+}
+
+/* navbar*/
+
+.nav-item {
+    font-size: small;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid rgb(193, 189, 189);
+}
+
+#button {
+    background-color: #aab33c;
+    width: 150px;
+    height: 30px;
+    font-weight: 500;
+}
+
+#button:hover {
+    transform: scale(1.1);
+}
+
+/* contents*/
+
+#best {
+    font-family: myfont;
+    font-size: 80px;
+}
+
+#bestcontainer p {
+    color: #a9b33b;
+    margin-top: -75px;
+
+}
+
+.button2 {
+    background-color: #aab33c;
+    width: 135px;
+    height: 40px;
+    border: none;
+    font-weight: 500;
+}
+
+.button2:hover {
+    transform: scale(1.1);
+}
+
+.pre1 {
+    font-size: 25px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+
+}
+
+/*section 2*/
+
+.sec2content {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Quicksand";
+    text-align: center;
+    align-items: center;
+    max-width: 45%;
+    line-height: 37px;
+}
+
+/*css for cards*/
+
+.card-body {
+    border-radius: 20px;
+}
+
+.card img {
+    width: 50%;
+    height: 50%;
+
+}
+
+#cardtext {
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+
+.card {
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px rgb(185, 185, 185);
+    color: #030303;
+    font-family: "Quicksand";
+}
+
+.card::after {
+    content: '';
+    inset: 0;
+    position: absolute;
+    opacity: 0.3;
+    background-color: #d9e271;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+/*section 3*/
+
+.sec3content {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Quicksand";
+    color: black;
+}
+
+.sec3para {
+    font-size: x-small;
+}
+
+#sec3img {
+    background-color: #e5e8c4;
+}
+
+#sec3img:hover {
+    transform: scale(1.1);
+}
+
+.sec3mob {
+    margin-left: -70px;
+    height: 650px;
+}
+
+/*section 4*/
+
+#bacforsec4 {
+    background-color: #a9b33c17;
+    background-position: center;
+    min-height: 30vh;
+}
+
+.sec4comgraph {
+    height: 450px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+
+#sec4pre1 {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    line-height: 1.1;
+}
+
+.sec4para1 {
+    font-size: x-small;
+    font-weight: 300px;
+    line-height: -1px;
+}
+
+#sec4btn {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-family: "Quicksand";
+    background-color: #aab33c;
+    border: none;
+    margin-left: 270px;
+}
+
+#sec4btn:hover {
+    transform: scale(1.1);
+}
+
+/*section 5*/
+
+.table {
+    width: 75%;
+    border-style: hidden;
+}
+
+.table th {
+    background-color: #a9b33b;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #eceed1;
+}
+
+#tparagraph {
+    font-size: 8px;
+    font-family: "Quicksand";
+}
+
+#headplan {
+    width: 70%;
+    font-family: "Quicksand";
+    font-size: 40px;
+}
+
+#headfull {
+    width: 15%;
+    font-family: "Quicksand";
+}
+
+#headlight {
+    width: 18%;
+    font-family: "Quicksand";
+}
+
+.table thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.table thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+#tcontents {
+    font-size: 10px;
+    color: #0a0a0a;
+    font-weight: 500;
+    font-family: "Quicksand";
+    white-space: pre-line;
+}
+
+td:last-child {
+    box-shadow: 0 0.2rem 0.5em rgba(109, 109, 109, 0.4);
+}
+
+th:last-child {
+    box-shadow: 0 0.2rem 0.5em rgba(0, 0, 0, 0.4);
+}
+
+th:nth-child(2) {
+    box-shadow: 0 0.2rem 0.5em rgba(0, 0, 0, 0.4);
+}
+
+td:nth-child(2) {
+    box-shadow: 0 0.2rem 0.5em rgba(109, 109, 109, 0.4);
+}
+
+th:nth-child(1) {
+    box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
+}
+
+td:nth-child(1) {
+    box-shadow: 0 0.2rem 0.2em rgba(0, 0, 0, 0.4);
+}
+
+#price {
+    font-size: 25px;
+    line-height: 14px;
+    color: #aab33b;
+    font-weight: 700;
+    font-family: "Quicksand";
+    border-bottom-left-radius: 14px;
+}
+
+.bottom {
+    box-shadow: 0px 15px 10px -1px rgba(0, 0, 0, 0.4)11;
+}
+
+#dollar {
+    font-size: 14px;
+    line-height: 30px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    white-space: pre-line;
+}
+
+.month {
+    text-align: right;
+    float: right;
+}
+
+#dollar1 {
+    font-size: 14px;
+    line-height: 30px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    border-bottom-right-radius: 14px;
+}
+
+/*section 6*/
+
+#sec6bg {
+    width: 100%;
+    background-color: #f6f7eb;
+    height: 250px;
+}
+
+.clickhere {
+    font-size: 150%;
+    line-height: 46px;
+    color: #404142;
+    font-weight: bolder;
+    font-family: "Quicksand";
+    text-align: center;
+    margin-top: -9%;
+    text-decoration: none;
+}
+
+.click {
+    font-size: 150%;
+    font-weight: 900;
+    color: black;
+    text-decoration: none;
+    font-family: "Quicksand";
+}
+
+.click:hover {
+    color: #5f6517;
+    border-bottom: 2px solid #5f6517;
+}
+
+/*cards*/
+
+.sec6card:hover {
+    transform: scale(1.1);
+    transition: ease-out;
+}
+
+#innercard {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    background-color: #fdffe9;
+    margin-left: 50px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 1;
+}
+
+#card6mainimg {
+    height: 238px;
+
+}
+
+#card6img2 {
+    background-color: #aab33c;
+    width: 70px;
+}
+
+#card6img2text {
+    flex: 1;
+
+}
+
+#sec6para {
+    margin-top: auto;
+    font-size: 13px;
+    color: #313132;
+    font-weight: 600;
+    font-family: "Quicksand";
+}
+
+.p6 {
+    font-size: 35px;
+    line-height: 46px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.btn6 {
+    font-weight: 700;
+    font-family: "Quicksand";
+    line-height: 3px;
+    color: white;
+    width: 200px;
+    height: 40px;
+    background-color: #aab33c;
+    align-items: center;
+
+}
+
+.btn6:hover {
+    transform: scale(1.1);
+}
+
+/*section 7 footer region*/
+
+.footbackground {
+    background-image: url(/Desktop/PSD2/assets/images/footerbg.png);
+}
+
+.font-2 {
+    width: 260px;
+    height: 130px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #404142;
+    font-weight: 400;
+    font-family: "Quicksand";
+}
+
+.aboutus {
+    font-size: 70%;
+    color: #404142;
+    font-family: "Quicksand";
+    font-weight: 900;
+}
+
+.getintouch,
+.quick {
+    font-size: 70%;
+    color: #404142;
+    font-weight: 900;
+    font-family: "Quicksand";
+}
+
+.getintouch,
+.quicklinks {
+    color: black;
+    text-decoration: none;
+}
+
+.getintouch:hover,
+.quicklinks:hover {
+    color: #848d00;
+}
+
+.footbtn {
+    color: #ffffff;
+    background-color: #acb643;
+    font-size: small;
+    border: none;
+}
+
+.footbtn:hover {
+    background-color: #8b9429;
+    transform: scale(1.1);
+}
+
+#fav {
+    color: #a8b336;
+}
+
+#footform {
+    color: white;
+}
+
+.form-control {
+    border: none;
+    outline: 0px;
+}
+
+#formlabel {
+    background-color: #acb643;
+}
+
+#footdown {
+    background-color: #aab33c;
+}
+
+#footdowntext {
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#footdowntext:hover {
+    color: #313132;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/*media queries*/
+
+
+
+@media only screen and (min-width:1024px) and (max-width:1440px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #sec1realestate {
+        font-size: small;
+        line-height: 22px;
+        padding-right: 30px;
+    }
+
+    .card {
+        padding-left: 10px;
+    }
+
+    #sec1button2 {
+        width: 100px;
+
+    }
+
+    #clickhere {
+        margin-top: -150px;
+    }
+
+    #sec2content {
+        font-size: small;
+        line-height: 18px;
+    }
+
+    #sec1button2 {
+        font-size: small;
+
+    }
+
+    #bacforsec4 {
+        width: 101%;
+    }
+
+    #imgph {
+        padding-right: 330px;
+        width: 800px;
+    }
+
+    #sec4btn {
+        width: 150px;
+        height: 45px;
+        font-size: small;
+        margin-left: -800px;
+        display: none;
+
+    }
+
+    #card6img2text {
+        width: 100px;
+        height: 75px;
+    }
+
+    #p6 {
+        font-size: medium;
+    }
+
+    #btn6 {
+        font-size: x-small;
+        width: 120px;
+    }
+
+    #inputform {
+        width: 200px;
+    }
+
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 500px) {
+    .heading {
+        width: 400px;
+    }
+
+    #sec1realestate {
+        font-size: small;
+        padding-right: 30px;
+    }
+
+    #sec1button2 {
+        display:none;
+
+
+    }
+
+    #best {
+        font-size: 2px;
+    }
+
+    #sec2content {
+        margin-left: 30px;
+        font-size: small;
+        line-height: 18px;
+        margin-bottom: 50px;
+    }
+
+    .sec3mob {
+        display: none;
+    }
+
+    #imgph {
+        display: none;
+    }
+
+    #clickhere {
+        margin-top: -150px;
+        font-size: medium;
+    }
+
+    #sec4pre1 {
+        margin-left: 30px;
+        font-size: small;
+    }
+
+    .sec4para1 {
+        text-align: center;
+    }
+
+    #sec4btn {
+        display: none;
+
+    }
+
+    #card6 {
+        padding-top: 30px;
+        margin-left: 10px;
+    }
+
+    #card6img2 {
+        display: none;
+    }
+
+    #p6 {
+        font-size: medium;
+    }
+
+    #btn6 {
+        width: 120px;
+        height: 30px;
+        font-size: small;
+    }
+
+    #footdowntext {
+        font-size: small;
+        margin-left: px;
+    }
+
+    #inputform {
+        width: 170px;
+        margin-left: -10px;
+    }
+
+    #basefoottext {
+        font-size: small;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:769px) {
+    #imgph {
+        display: none;
+    }
+
+    #card6img2 {
+        display: none;
+    }
+
+    .sec3mob {
+        display: none;
+    }
+
+    #sec4btn {
+        display: none;
+
+    }
+
+    #sec1realestate {
+        font-size: small;
+        padding-right: 30px;
+    }
+
+    #sec1button2 {
+        font-size: small;
+    }
+
+    #sec2content {
+        margin-left: 30px;
+        font-size: small;
+        line-height: 18px;
+        margin-bottom: 50px;
+    }
+
+    #sec3analyse {
+        text-align: center;
+        margin-right: -300px;
+    }
+
+    .sec3content {
+        display: none;
+    }
+
+    #sec3img {
+        display: none;
+    }
+
+    #sec4pre1 {
+        margin-left: -190px;
+    }
+
+    .sec4para1 {
+        margin-left: -190px;
+    }
+
+    #clickhere {
+        margin-top: -130px;
+    }
+    #inputform{
+        width:200px;
+    }
+}
