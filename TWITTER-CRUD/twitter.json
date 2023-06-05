@@ -43,7 +43,57 @@
   ],
   "Twittermessage": [
     {
-      "twittmsg":""
+      "id": 1
+    },
+    {
+      "twittmsg": "hello harita",
+      "id": 2
+    },
+    {
+      "twittmsg": "hello harita",
+      "id": 3
+    },
+    {
+      "twittmsg": "hello ranita",
+      "id": 4
+    },
+    {
+      "user_id": "18",
+      "user_name": "Umarani",
+      "twittmsg": "hello harita",
+      "id": 5
+    },
+    {
+      "user_id": "14",
+      "user_name": "HARISH",
+      "twittmsg": "hello harish",
+      "sender_uid": "2",
+      "sender_username": "HARITA",
+      "id": 6
+    },
+    {
+      "user_id": "14",
+      "user_name": "HARISH",
+      "twittmsg": "hello harish",
+      "sender_uid": "2",
+      "sender_username": "HARITA",
+      "id": 7
+    },
+    {
+      "user_id": "19",
+      "user_name": "YAMINI",
+      "twittmsg": "hello ranita",
+      "sender_uid": "19",
+      "sender_username": "YAMINI",
+      "id": 8
+    },
+    {
+      "user_id": "4",
+      "user_name": "RANITA",
+      "twittmsg": "hello harish",
+      "sender_uid": "19",
+      "sender_username": "YAMINI",
+      "id": 9
     }
   ]
 }
